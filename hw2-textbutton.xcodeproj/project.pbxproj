@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		536EB95F1F328C7500817005 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 536EB95E1F328C7500817005 /* main.m */; };
+		536EB9621F328C7500817005 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 536EB9611F328C7500817005 /* AppDelegate.m */; };
+		536EB9651F328C7500817005 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 536EB9641F328C7500817005 /* ViewController.m */; };
+		536EB9681F328C7500817005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 536EB9661F328C7500817005 /* Main.storyboard */; };
+		536EB96A1F328C7500817005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 536EB9691F328C7500817005 /* Assets.xcassets */; };
+		536EB96D1F328C7500817005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 536EB96B1F328C7500817005 /* LaunchScreen.storyboard */; };
+		536EB9781F328C7600817005 /* hw2_textbuttonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 536EB9771F328C7600817005 /* hw2_textbuttonTests.m */; };
+		536EB9831F328C7600817005 /* hw2_textbuttonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 536EB9821F328C7600817005 /* hw2_textbuttonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		536EB9741F328C7600817005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 536EB9521F328C7500817005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 536EB9591F328C7500817005;
+			remoteInfo = "hw2-textbutton";
+		};
+		536EB97F1F328C7600817005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 536EB9521F328C7500817005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 536EB9591F328C7500817005;
+			remoteInfo = "hw2-textbutton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		536EB95A1F328C7500817005 /* hw2-textbutton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hw2-textbutton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		536EB95E1F328C7500817005 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		536EB9601F328C7500817005 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		536EB9611F328C7500817005 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		536EB9631F328C7500817005 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		536EB9641F328C7500817005 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		536EB9671F328C7500817005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		536EB9691F328C7500817005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		536EB96C1F328C7500817005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		536EB96E1F328C7500817005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		536EB9731F328C7600817005 /* hw2-textbuttonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hw2-textbuttonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		536EB9771F328C7600817005 /* hw2_textbuttonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hw2_textbuttonTests.m; sourceTree = "<group>"; };
+		536EB9791F328C7600817005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		536EB97E1F328C7600817005 /* hw2-textbuttonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hw2-textbuttonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		536EB9821F328C7600817005 /* hw2_textbuttonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hw2_textbuttonUITests.m; sourceTree = "<group>"; };
+		536EB9841F328C7600817005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		536EB9571F328C7500817005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536EB9701F328C7600817005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536EB97B1F328C7600817005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		536EB9511F328C7500817005 = {
+			isa = PBXGroup;
+			children = (
+				536EB95C1F328C7500817005 /* hw2-textbutton */,
+				536EB9761F328C7600817005 /* hw2-textbuttonTests */,
+				536EB9811F328C7600817005 /* hw2-textbuttonUITests */,
+				536EB95B1F328C7500817005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		536EB95B1F328C7500817005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				536EB95A1F328C7500817005 /* hw2-textbutton.app */,
+				536EB9731F328C7600817005 /* hw2-textbuttonTests.xctest */,
+				536EB97E1F328C7600817005 /* hw2-textbuttonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		536EB95C1F328C7500817005 /* hw2-textbutton */ = {
+			isa = PBXGroup;
+			children = (
+				536EB9601F328C7500817005 /* AppDelegate.h */,
+				536EB9611F328C7500817005 /* AppDelegate.m */,
+				536EB9631F328C7500817005 /* ViewController.h */,
+				536EB9641F328C7500817005 /* ViewController.m */,
+				536EB9661F328C7500817005 /* Main.storyboard */,
+				536EB9691F328C7500817005 /* Assets.xcassets */,
+				536EB96B1F328C7500817005 /* LaunchScreen.storyboard */,
+				536EB96E1F328C7500817005 /* Info.plist */,
+				536EB95D1F328C7500817005 /* Supporting Files */,
+			);
+			path = "hw2-textbutton";
+			sourceTree = "<group>";
+		};
+		536EB95D1F328C7500817005 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				536EB95E1F328C7500817005 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		536EB9761F328C7600817005 /* hw2-textbuttonTests */ = {
+			isa = PBXGroup;
+			children = (
+				536EB9771F328C7600817005 /* hw2_textbuttonTests.m */,
+				536EB9791F328C7600817005 /* Info.plist */,
+			);
+			path = "hw2-textbuttonTests";
+			sourceTree = "<group>";
+		};
+		536EB9811F328C7600817005 /* hw2-textbuttonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				536EB9821F328C7600817005 /* hw2_textbuttonUITests.m */,
+				536EB9841F328C7600817005 /* Info.plist */,
+			);
+			path = "hw2-textbuttonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		536EB9591F328C7500817005 /* hw2-textbutton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 536EB9871F328C7600817005 /* Build configuration list for PBXNativeTarget "hw2-textbutton" */;
+			buildPhases = (
+				536EB9561F328C7500817005 /* Sources */,
+				536EB9571F328C7500817005 /* Frameworks */,
+				536EB9581F328C7500817005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hw2-textbutton";
+			productName = "hw2-textbutton";
+			productReference = 536EB95A1F328C7500817005 /* hw2-textbutton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		536EB9721F328C7600817005 /* hw2-textbuttonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 536EB98A1F328C7600817005 /* Build configuration list for PBXNativeTarget "hw2-textbuttonTests" */;
+			buildPhases = (
+				536EB96F1F328C7600817005 /* Sources */,
+				536EB9701F328C7600817005 /* Frameworks */,
+				536EB9711F328C7600817005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				536EB9751F328C7600817005 /* PBXTargetDependency */,
+			);
+			name = "hw2-textbuttonTests";
+			productName = "hw2-textbuttonTests";
+			productReference = 536EB9731F328C7600817005 /* hw2-textbuttonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		536EB97D1F328C7600817005 /* hw2-textbuttonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 536EB98D1F328C7600817005 /* Build configuration list for PBXNativeTarget "hw2-textbuttonUITests" */;
+			buildPhases = (
+				536EB97A1F328C7600817005 /* Sources */,
+				536EB97B1F328C7600817005 /* Frameworks */,
+				536EB97C1F328C7600817005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				536EB9801F328C7600817005 /* PBXTargetDependency */,
+			);
+			name = "hw2-textbuttonUITests";
+			productName = "hw2-textbuttonUITests";
+			productReference = 536EB97E1F328C7600817005 /* hw2-textbuttonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		536EB9521F328C7500817005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Bingqing Xie";
+				TargetAttributes = {
+					536EB9591F328C7500817005 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					536EB9721F328C7600817005 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 536EB9591F328C7500817005;
+					};
+					536EB97D1F328C7600817005 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 536EB9591F328C7500817005;
+					};
+				};
+			};
+			buildConfigurationList = 536EB9551F328C7500817005 /* Build configuration list for PBXProject "hw2-textbutton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 536EB9511F328C7500817005;
+			productRefGroup = 536EB95B1F328C7500817005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				536EB9591F328C7500817005 /* hw2-textbutton */,
+				536EB9721F328C7600817005 /* hw2-textbuttonTests */,
+				536EB97D1F328C7600817005 /* hw2-textbuttonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		536EB9581F328C7500817005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536EB96D1F328C7500817005 /* LaunchScreen.storyboard in Resources */,
+				536EB96A1F328C7500817005 /* Assets.xcassets in Resources */,
+				536EB9681F328C7500817005 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536EB9711F328C7600817005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536EB97C1F328C7600817005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		536EB9561F328C7500817005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536EB9651F328C7500817005 /* ViewController.m in Sources */,
+				536EB9621F328C7500817005 /* AppDelegate.m in Sources */,
+				536EB95F1F328C7500817005 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536EB96F1F328C7600817005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536EB9781F328C7600817005 /* hw2_textbuttonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536EB97A1F328C7600817005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536EB9831F328C7600817005 /* hw2_textbuttonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		536EB9751F328C7600817005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 536EB9591F328C7500817005 /* hw2-textbutton */;
+			targetProxy = 536EB9741F328C7600817005 /* PBXContainerItemProxy */;
+		};
+		536EB9801F328C7600817005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 536EB9591F328C7500817005 /* hw2-textbutton */;
+			targetProxy = 536EB97F1F328C7600817005 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		536EB9661F328C7500817005 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				536EB9671F328C7500817005 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		536EB96B1F328C7500817005 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				536EB96C1F328C7500817005 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		536EB9851F328C7600817005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		536EB9861F328C7600817005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		536EB9881F328C7600817005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hw2-textbutton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aerilbingqing.hw2-textbutton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		536EB9891F328C7600817005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hw2-textbutton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aerilbingqing.hw2-textbutton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		536EB98B1F328C7600817005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "hw2-textbuttonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aerilbingqing.hw2-textbuttonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hw2-textbutton.app/hw2-textbutton";
+			};
+			name = Debug;
+		};
+		536EB98C1F328C7600817005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "hw2-textbuttonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aerilbingqing.hw2-textbuttonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hw2-textbutton.app/hw2-textbutton";
+			};
+			name = Release;
+		};
+		536EB98E1F328C7600817005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "hw2-textbuttonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aerilbingqing.hw2-textbuttonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "hw2-textbutton";
+			};
+			name = Debug;
+		};
+		536EB98F1F328C7600817005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "hw2-textbuttonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aerilbingqing.hw2-textbuttonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "hw2-textbutton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		536EB9551F328C7500817005 /* Build configuration list for PBXProject "hw2-textbutton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536EB9851F328C7600817005 /* Debug */,
+				536EB9861F328C7600817005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		536EB9871F328C7600817005 /* Build configuration list for PBXNativeTarget "hw2-textbutton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536EB9881F328C7600817005 /* Debug */,
+				536EB9891F328C7600817005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		536EB98A1F328C7600817005 /* Build configuration list for PBXNativeTarget "hw2-textbuttonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536EB98B1F328C7600817005 /* Debug */,
+				536EB98C1F328C7600817005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		536EB98D1F328C7600817005 /* Build configuration list for PBXNativeTarget "hw2-textbuttonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536EB98E1F328C7600817005 /* Debug */,
+				536EB98F1F328C7600817005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 536EB9521F328C7500817005 /* Project object */;
+}

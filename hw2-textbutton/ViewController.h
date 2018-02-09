@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property(nonatomic,strong) UILabel*label;
+@property(nonatomic,strong) UITextField*textfield;
+@property(nonatomic,strong) UIButton*button;
 
 @end
 

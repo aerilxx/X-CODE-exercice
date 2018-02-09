@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5361E922202D21D1005B69EC /* smile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5361E921202D21D1005B69EC /* smile.jpg */; };
+		5361E923202D21D1005B69EC /* smile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5361E921202D21D1005B69EC /* smile.jpg */; };
+		5361E924202D21D1005B69EC /* smile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5361E921202D21D1005B69EC /* smile.jpg */; };
 		536EB95F1F328C7500817005 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 536EB95E1F328C7500817005 /* main.m */; };
 		536EB9621F328C7500817005 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 536EB9611F328C7500817005 /* AppDelegate.m */; };
 		536EB9651F328C7500817005 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 536EB9641F328C7500817005 /* ViewController.m */; };
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5361E921202D21D1005B69EC /* smile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile.jpg; sourceTree = "<group>"; };
 		536EB95A1F328C7500817005 /* hw2-textbutton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hw2-textbutton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		536EB95E1F328C7500817005 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		536EB9601F328C7500817005 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				536EB95E1F328C7500817005 /* main.m */,
+				5361E921202D21D1005B69EC /* smile.jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 			files = (
 				536EB96D1F328C7500817005 /* LaunchScreen.storyboard in Resources */,
 				536EB96A1F328C7500817005 /* Assets.xcassets in Resources */,
+				5361E922202D21D1005B69EC /* smile.jpg in Resources */,
 				536EB9681F328C7500817005 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5361E923202D21D1005B69EC /* smile.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5361E924202D21D1005B69EC /* smile.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +515,7 @@
 				536EB9891F328C7600817005 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		536EB98A1F328C7600817005 /* Build configuration list for PBXNativeTarget "hw2-textbuttonTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				536EB98C1F328C7600817005 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		536EB98D1F328C7600817005 /* Build configuration list for PBXNativeTarget "hw2-textbuttonUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				536EB98F1F328C7600817005 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -31,7 +31,6 @@
 -(void)setuplable{
     self.label=[[UILabel alloc] initWithFrame:CGRectMake(100, 450, 250, 250)];
     [self.view addSubview:self.label];
-    
     self.label.text=@"please enter your name";
 }
 
